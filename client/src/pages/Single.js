@@ -2,6 +2,7 @@ import React from 'react';
 import Delete from "../img/delete.png"
 import Edit from "../img/edit.png"
 import {Link} from "react-router-dom";
+import Menu from "../components/Menu";
 
 const Single = () => {
     return (
@@ -32,9 +33,10 @@ const Single = () => {
                     details about the post.This is the content of post 1. This content is longer than the previous content and provides more
                     details about the post. This is the content of post 1. This content is longer than the previous content and provides more
                     details about the post.This is the content of post 1. This content is longer than the previous content and provides more
-                    details about the post.</p>
+                    details about the post.
+                </p>
             </div>
-            <div className="menu">m</div>
+            <Menu />
         </div>
     );
 };
